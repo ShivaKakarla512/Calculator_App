@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "Calculator",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "splash": {
+      "image": "./assets/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    },
+    "android": {
+      "package": "com.SAND_CO.Calculator",
+      "versionCode": 4,
+    }
+  }
+}
